@@ -1,8 +1,8 @@
-package Step1.First;
+package sec01_string.q01_find_character;
 
 import java.util.Scanner;
 
-public class FindCharacterSolution {
+public class Answer {
   public int solution(String str, char t){
     str=str.toUpperCase();
     t=Character.toUpperCase(t);
@@ -21,7 +21,7 @@ public class FindCharacterSolution {
   }
 
   public static void main(String[] args) {
-    FindCharacterSolution T = new FindCharacterSolution();
+    Answer T = new Answer();
     Scanner sc = new Scanner(System.in);
     String str = sc.next();
     char t = sc.next().charAt(0);

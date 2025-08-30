@@ -1,8 +1,8 @@
-package Step1.Third;
+package sec01_string.q03_word_in_sentence;
 
 import java.util.Scanner;
 
-public class FindLongWordSolution {
+public class Answer {
   	public String solution(String str){
 		String answer="";
 		int m=Integer.MIN_VALUE, pos;
@@ -20,7 +20,7 @@ public class FindLongWordSolution {
 	}
 
 	public static void main(String[] args){
-		FindLongWordSolution T = new FindLongWordSolution();
+		Answer T = new Answer();
 		Scanner kb = new Scanner(System.in);
 		String str=kb.nextLine();
 		System.out.print(T.solution(str));

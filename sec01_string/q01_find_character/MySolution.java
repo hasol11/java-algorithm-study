@@ -1,8 +1,8 @@
-package Step1.First;
+package sec01_string.q01_find_character;
 
 import java.util.Scanner;
 
-public class FindCharacter {
+public class MySolution {
   public static void main(String[] args) {
     int count =0;
     Scanner sc = new Scanner(System.in);

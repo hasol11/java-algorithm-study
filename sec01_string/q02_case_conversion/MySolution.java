@@ -1,8 +1,8 @@
-package Step1.Second;
+package sec01_string.q02_case_conversion;
 
 import java.util.Scanner;
 
-public class CaseDivision {
+public class MySolution {
   public String solution(String str){
     String answer = null;
     StringBuilder sb = new StringBuilder();
@@ -17,7 +17,7 @@ public class CaseDivision {
     return answer;
   }
   public static void main(String[] args) {
-    CaseDivision T = new CaseDivision();
+    MySolution T = new MySolution();
     Scanner sc = new Scanner(System.in);
     String str = sc.next();
     System.out.println(T.solution(str));

@@ -1,8 +1,8 @@
-package Step1.Third;
+package sec01_string.q03_word_in_sentence;
 
 import java.util.Scanner;
 
-public class FindLongWord {
+public class MySolution {
   public String solution(String str){
     String answer = null;
     int count=0;
@@ -17,7 +17,7 @@ public class FindLongWord {
   }
 
   public static void main(String[] args) {
-    FindLongWord T = new FindLongWord();
+    MySolution T = new MySolution();
     Scanner sc = new Scanner(System.in);
     String str = sc.nextLine();
     System.out.println(T.solution(str));
