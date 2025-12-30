@@ -13,5 +13,12 @@
 
 ### 2) 핵심 개념
 
-- `String[] arr = str.split(" ")` 처럼 () 기준으로 잘라 배열을 만든다.
-- `while((pos=str.indexOf(' '))!=-1)` ' ' 인 인덱스 값을 찾아서 저장한다.
+split 방식: str.split(" ")을 사용하면 공백을 기준으로 단어들을 쪼개서 바로 배열로 만들어준다.
+
+indexOf + substring 방식:
+
+- 위치 찾기 (indexOf): pos = str.indexOf(' ')로 첫 번째 공백의 인덱스 번호를 찾는다. (없으면 -1)
+
+- 단어 자르기 (substring): str.substring(0, pos)로 공백 앞까지의 단어를 잘라낸다.
+
+- 문자열 갱신 (substring): str = str.substring(pos + 1)로 처리한 앞 단어와 공백을 잘라내고 남은 뒷부분만 다시 저장한다.
