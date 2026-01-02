@@ -1,13 +1,15 @@
-package sec01_string.q06_remove_duplicates;
+package sec01_string.q07_palindrome;
 
 import java.util.Scanner;
 
 public class Answer {
   public String solution(String str){
-    String answer="";
-    for(int i=0;i<str.length();i++){
-      if(i==str.indexOf(str.charAt(i))){
-        answer+=str.charAt(i);
+    String answer ="YES";
+    str=str.toLowerCase();
+    int len = str.length();
+    for(int i =0; i<len/2;i++){
+      if(str.charAt(i)!=str.charAt(len-i-1)){
+        return "NO";
       }
     }
     return answer;
