@@ -21,3 +21,5 @@
 ---
 
 ### 2) 핵심 개념
+
+- `equalsIgnoreCase(String anotherString)` : equals()와 똑같지만, 대소문자를 무시하고 비교한다.
