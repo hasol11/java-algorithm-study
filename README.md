@@ -31,7 +31,7 @@
 
 ## ✅ 학습 진행 현황
 
-- [ ] **Section 1. String (문자열)**
+- [x] **Section 1. String (문자열)**
 - [ ] **Section 2. Array (배열)**
 - [ ] **Section 3. Two pointers, Sliding window**
 - [ ] **Section 4. HashMap, TreeSet**
