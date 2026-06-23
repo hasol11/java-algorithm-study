@@ -1,4 +1,4 @@
-package sec03_two_pointers.q01_merge_two_arrays;
+
 
 import java.util.ArrayList;
 import java.util.Scanner;
