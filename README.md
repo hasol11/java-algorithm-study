@@ -34,7 +34,7 @@
 - [x] **Section 1. String (문자열)**
 - [x] **Section 2. Array (배열)**
 - [x] **Section 3. Two pointers, Sliding window**
-- [ ] **Section 4. HashMap, TreeSet**
+- [x] **Section 4. HashMap, TreeSet**
 - [ ] **Section 5. Stack, Queue**
 - [ ] **Section 6. Sorting and Searching**
 - [ ] **Section 7. Recursive, Tree, Graph (DFS, BFS 기초)**
