@@ -10,12 +10,13 @@ public class Answer {
       else{
         int rt = stack.pop();
         int lt = stack.pop();
-        if(x=='+') stack.push(lt+rt);
+        if(x=='+') stack.push(lt+rt); 
         if(x=='-') stack.push(lt-rt);
         if(x=='*') stack.push(lt*rt);
         if(x=='/') stack.push(lt/rt);
       }
     }
+    
     answer = stack.pop();
     return answer;
   }

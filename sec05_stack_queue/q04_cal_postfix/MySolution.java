@@ -27,6 +27,7 @@ public class MySolution {
         stack.push(Character.getNumericValue(x));
       }
     }
+    
     System.out.println(stack.pop());
     sc.close();
   }
